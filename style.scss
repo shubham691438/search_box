@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: 20px sans-serif;
+    background-image: url('search_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    font-family: 80px product sans-serif;
+    color: #fff;
+    font-weight: 900; 
+    text-align: center;
+    margin-top: 15%;
+}
+
+form{
+    text-align: center;
+}
+
+
+input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type=text] {
+    background-color: #f1f1f1;
+    width: 30%;
+    border-radius: 3px;
+  }
+  
+  input[type=submit] {
+    background-color: #05d69b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 24px;
+    width:9%;
+    
+  }
+
+  #suggestions_name {
+    
+    top: 100%;
+    width:30%;
+    margin-left: 30.3%;
+    
+  }
+
+  #suggestions_name div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #FFFFF7;
+    
+
+  }
+
+  #suggestions_name div b{
+    color:red
+  } 
+
+  #suggestions_name div:hover {
+    background-color: #e9e9e9; 
+  }
+  
+  
+  .active {
+    background-color: #05d69b !important; 
+    color: #ffffff;
+}
